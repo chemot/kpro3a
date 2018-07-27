@@ -11,7 +11,7 @@ from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit, subprocess
 
-ririn = LINE("EtAMLgb0zoJwV5h2ESr6.7kqscP17dKQEF08Bg5AKnG.LkvtwSoDccEW4SQQb9rQh1/2dUXRv11BQfcebyDgolg='''''")
+ririn = LINE("Evx7aX9igmrbbAvCoIMf.K9hUseF6j4f/WE5DLTHHBW.8cu6k4noj/VDblh9ro6rb5cE7Lxj0F4j3Pqy76h35ME=")
 #ririn = LINE("TOKENMU")
 
 ririnMid = ririn.profile.mid
@@ -705,15 +705,15 @@ def ririnBot(op):
                             if cmd == "help":
                                 helpMessage = helpmessage()
                                 ririn.sendMessage(to, str(helpMessage))
-                                ririn.sendContact(to, "ueca4120a9d7b0e4a9e7f4f1b1b96a436")
+                                ririn.sendContact(to, "u93d1ee4847fa27817ec1ee5d96d8616f")
                             elif cmd == "tts":
                                 helpTextToSpeech = helptexttospeech()
                                 ririn.sendMessage(to, str(helpTextToSpeech))
-                                ririn.sendContact(to, "ueca4120a9d7b0e4a9e7f4f1b1b96a436")
+                                ririn.sendContact(to, "u93d1ee4847fa27817ec1ee5d96d8616f")
                             elif cmd == "translate":
                                 helpTranslate = helptranslate()
                                 ririn.sendMessage(to, str(helpTranslate))
-                                ririn.sendContact(to, "ueca4120a9d7b0e4a9e7f4f1b1b96a436")
+                                ririn.sendContact(to, "u93d1ee4847fa27817ec1ee5d96d8616f")
                             elif cmd.startswith("changekey:"):
                                 sep = text.split(" ")
                                 key = text.replace(sep[0] + " ","")
@@ -837,7 +837,7 @@ def ririnBot(op):
                                     else: ret_ += "\n╠❂➣ [ ᴏғғ ] ᴜɴsᴇɴᴅ ᴍsɢ 「⚫」"
                                     ret_ += "\n╚═════[ ✯ ᴅɴᴀ ʙᴏᴛ ✯ ]═════╝"
                                     ririn.sendMessage(to, str(ret_))
-                                    ririn.sendContact(to, "ueca4120a9d7b0e4a9e7f4f1b1b96a436")
+                                    ririn.sendContact(to, "u93d1ee4847fa27817ec1ee5d96d8616f")
                                 except Exception as e:
                                     ririn.sendMessage(msg.to, str(e))
 #------------------------------------============================------------------------------------#
@@ -1710,7 +1710,7 @@ def ririnBot(op):
             msg = op.message
             if wait["autoResponPc"] == True:
                 if msg.toType == 0:
-                    ririn.sendChatChecked(msg._from,msg.id)
+                   # ririn.sendChatChecked(msg._from,msg.id)
                     contact = ririn.getContact(msg._from)
                     cName = contact.displayName
                     balas = ["╔════════════════════╗\n                   「ᴀᴜᴛᴏ ʀᴇᴘʟʏ」\n                             ʙʏ:\n                    ✰ ᴅɴᴀ ʙᴏᴛ ✰\n╚════════════════════╝\n\nʜᴀʟʟᴏ 「" + cName + "」\nᴍᴏʜᴏɴ ᴍᴀᴀғ sᴀʏᴀ sᴇᴅᴀɴɢ sɪʙᴜᴋ, ɪɴɪ ᴀᴅᴀʟᴀʜ ᴘᴇsᴀɴ ᴏᴛᴏᴍᴀᴛɪs, ᴊɪᴋᴀ ᴀᴅᴀ ʏᴀɴɢ ᴘᴇɴᴛɪɴɢ ᴍᴏʜᴏɴ ʜᴜʙᴜɴɢɪ sᴀʏᴀ ɴᴀɴᴛɪ, ᴛᴇʀɪᴍᴀᴋᴀsɪʜ...","╔════════════════════╗\n                   「ᴀᴜᴛᴏ ʀᴇᴘʟʏ」\n                             ʙʏ:\n                    ✰ ᴅɴᴀ ʙᴏᴛ ✰\n╚════════════════════╝\n\nʜᴀʟʟᴏ 「" + cName + "」\nsᴀʏᴀ ʟᴀɢɪ sɪʙᴜᴋ ʏᴀ ᴋᴀᴋ ᴊᴀɴɢᴀɴ ᴅɪɢᴀɴɢɢᴜ","╔════════════════════╗\n                   「ᴀᴜᴛᴏ ʀᴇᴘʟʏ」\n                             ʙʏ:\n                    ✰ ᴅɴᴀ ʙᴏᴛ ✰\n╚════════════════════╝\n\nʜᴀʟʟᴏ 「" + cName + "」\nsᴀʏᴀ sᴇᴅᴀɴɢ ᴛɪᴅᴜʀ ᴋᴀᴋ"]
@@ -1778,10 +1778,10 @@ def ririnBot(op):
                             for mention in mentionees:
                                 if ririnMid in mention["M"]:
                                     if wait["autoRespon"] == True:
-                                    	ririn.sendChatChecked(msg._from,msg.id)
+                                    #	ririn.sendChatChecked(msg._from,msg.id)
                                     	contact = ririn.getContact(msg._from)
                                     	ririn.sendImageWithURL(msg._from, "http://dl.profile.line-cdn.net{}".format(contact.picturePath))
-                                    	sendMention(sender, "ᴏɪ ᴍʙʟᴏ @!      ,\nɴɢᴀᴘᴀɪɴ ᴛᴀɢ ᴛᴀɢ ɢᴡ", [sender])
+                                    	sendMention(sender, "makasih @!      ,\nSudah tag aku", [sender])
                                     	dee = "" + random.choice(balas)
                                     break
             except Exception as error:
