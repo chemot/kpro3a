@@ -18,71 +18,71 @@ dna1 = LINE("Esn9u0ubtOSNbrvmZRj2.We7lj7PxgwBQ8O07ppSHuG.yZgTUBb0XWQeIuEeEcOTxrV
 
 dna2 = LINE("EswPaA5BOBJTsJYOn671.Sl2u8yHwWYZHMslzI9Bi8q.20nDyP69BtbKbjSH0g+Az8JIhjkvKDyF5cnu+TLbWJc=")
 
-dna3 = LINE("EsEKNt02EJOcnTi6Xzx8.M53qiD/PJ1i6qsVfYwB7Ea.NaLIAwjUUJL6CgB0EDUFAPFuGYBt1Tfnu+Di90xex+w=")
+#dna3 = LINE("EsEKNt02EJOcnTi6Xzx8.M53qiD/PJ1i6qsVfYwB7Ea.NaLIAwjUUJL6CgB0EDUFAPFuGYBt1Tfnu+Di90xex+w=")
 
-dna4 = LINE("EsW1g9iNsbBlMKijNfg3.LTjIccO9HW0I2OLJ9e3wmW.mvP+mX2apHj/j8NBNUX/V2mNidEVhpOwAGUyCcNSSDI=")
+#dna4 = LINE("EsW1g9iNsbBlMKijNfg3.LTjIccO9HW0I2OLJ9e3wmW.mvP+mX2apHj/j8NBNUX/V2mNidEVhpOwAGUyCcNSSDI=")
 
-dna5 = LINE("EsuIBccvd1yt4fKYcMua.i4cphH9h9VMs4DyAsZSSsG.6dh1FLhE4KKi6AS/yTbG5hYIAd2ZEn5SW2gaOUenUTs=")
+#dna5 = LINE("EsuIBccvd1yt4fKYcMua.i4cphH9h9VMs4DyAsZSSsG.6dh1FLhE4KKi6AS/yTbG5hYIAd2ZEn5SW2gaOUenUTs=")
 
-dna6 = LINE('Esrt47QpyN5xDpEI9q7a.fW/HXK/P6ucyNSYHd42E2G.IfXCDZecGl9VI8YP70o5nXE+BVa1MPJ/RArJyIzm7fg=')
+#dna6 = LINE('Esrt47QpyN5xDpEI9q7a.fW/HXK/P6ucyNSYHd42E2G.IfXCDZecGl9VI8YP70o5nXE+BVa1MPJ/RArJyIzm7fg=')
 
-dna7 = LINE("EsUm82oDONrrROSjd0o3.GQe1F0FLgkB3suGK5WtUCW.H1Mt8JrAr6MOcF/Jey5dYH62txLV9EUeC7kpIy7xbI8=")
+#dna7 = LINE("EsUm82oDONrrROSjd0o3.GQe1F0FLgkB3suGK5WtUCW.H1Mt8JrAr6MOcF/Jey5dYH62txLV9EUeC7kpIy7xbI8=")
 
-dna8 = LINE("EsxzQWuDsnqvc6umvf13.fOtS1/ZYrVfyY2wr74a3uW.5NYRTH6X2K+wXUVCetEqGUoqhqMZEZfh9iY/yY/NeH8=")
+#dna8 = LINE("EsxzQWuDsnqvc6umvf13.fOtS1/ZYrVfyY2wr74a3uW.5NYRTH6X2K+wXUVCetEqGUoqhqMZEZfh9iY/yY/NeH8=")
 
-dna9 = LINE("EsCbkUtvMVAsXQ6h0Vj1./PGYhVVe4uDle5Q6kp48qq.QdI0wcEL/lGgxXLSRWgiHGqtblWKBVsv1pw+H+jnqoM=")
+#dna9 = LINE("EsCbkUtvMVAsXQ6h0Vj1./PGYhVVe4uDle5Q6kp48qq.QdI0wcEL/lGgxXLSRWgiHGqtblWKBVsv1pw+H+jnqoM=")
 
-dna10 = LINE("Es0Dc6tTZLGHWLdjLoj5.qzjQVWZ0ZEOc9BUr4r9zrq.53ywR6urnzMdrRTfoFuFUXmX92L79AkrN/LPysGzdVg=") #Ghost
+#dna10 = LINE("Es0Dc6tTZLGHWLdjLoj5.qzjQVWZ0ZEOc9BUr4r9zrq.53ywR6urnzMdrRTfoFuFUXmX92L79AkrN/LPysGzdVg=") #Ghost
 
 ririnPoll = OEPoll(ririn)
-KAC=[ririn,dna1,dna2,dna3,dna4,dna5,dna6,dna7,dna8,dna9]
+KAC=[ririn,dna1,dna2]
 ririnMid = ririn.profile.mid
 aMid = dna1.profile.mid
 bMid = dna2.profile.mid
-cMid = dna3.profile.mid
-dMid = dna4.profile.mid
-eMid = dna5.profile.mid
-fMid = dna6.profile.mid
-gMid = dna7.profile.mid
-hMid = dna8.profile.mid
-iMid = dna9.profile.mid
-jMid = dna10.profile.mid
+#cMid = dna3.profile.mid
+#dMid = dna4.profile.mid
+#eMid = dna5.profile.mid
+#fMid = dna6.profile.mid
+#gMid = dna7.profile.mid
+#hMid = dna8.profile.mid
+#iMid = dna9.profile.mid
+#jMid = dna10.profile.mid
 
 responsename = ririn.getProfile().displayName
 responsename2 = dna1.getProfile().displayName
-responsename3 = dna2.getProfile().displayName
-responsename4 = dna3.getProfile().displayName
-responsename5 = dna4.getProfile().displayName
-responsename6 = dna5.getProfile().displayName
-responsename7 = dna6.getProfile().displayName
-responsename8 = dna7.getProfile().displayName
-responsename9 = dna8.getProfile().displayName
-responsename10 = dna9.getProfile().displayName
-responsename11 = dna10.getProfile().displayName
+#responsename3 = dna2.getProfile().displayName
+#responsename4 = dna3.getProfile().displayName
+#responsename5 = dna4.getProfile().displayName
+#responsename6 = dna5.getProfile().displayName
+#responsename7 = dna6.getProfile().displayName
+#responsename8 = dna7.getProfile().displayName
+#responsename9 = dna8.getProfile().displayName
+#responsename10 = dna9.getProfile().displayName
+#responsename11 = dna10.getProfile().displayName
 
 ririnProfile = ririn.getProfile()
 aProfile = dna1.getProfile()
 bProfile = dna2.getProfile()
-cProfile = dna3.getProfile()
-dProfile = dna4.getProfile()
-eProfile = dna5.getProfile()
-fProfile = dna6.getProfile()
-gProfile = dna7.getProfile()
-hProfile = dna8.getProfile()
-iProfile = dna9.getProfile()
-jProfile = dna10.getProfile()
+#cProfile = dna3.getProfile()
+#dProfile = dna4.getProfile()
+#eProfile = dna5.getProfile()
+#fProfile = dna6.getProfile()
+#gProfile = dna7.getProfile()
+#hProfile = dna8.getProfile()
+#iProfile = dna9.getProfile()
+#jProfile = dna10.getProfile()
 
 ririnSettings = ririn.getSettings()
 aSettings = dna1.getSettings()
 bSettings = dna2.getSettings()
-cSettings = dna3.getSettings()
-dSettings = dna4.getSettings()
-eSettings = dna5.getSettings()
-fSettings = dna6.getSettings()
-gSettings = dna7.getSettings()
-hSettings = dna8.getSettings()
-iSettings = dna9.getSettings()
-jSettings = dna10.getSettings()
+#cSettings = dna3.getSettings()
+#dSettings = dna4.getSettings()
+#eSettings = dna5.getSettings()
+#fSettings = dna6.getSettings()
+#gSettings = dna7.getSettings()
+#hSettings = dna8.getSettings()
+#iSettings = dna9.getSettings()
+#jSettings = dna10.getSettings()
 
 botStart = time.time()
 
@@ -809,37 +809,37 @@ def ririnBot(op):
                             	ririn.sendMessage(to,responsename)
                             	dna1.sendMessage(to,responsename2)
                             	dna2.sendMessage(to,responsename3)
-                            	dna3.sendMessage(to,responsename4)
-                            	dna4.sendMessage(to,responsename5)
-                            	dna5.sendMessage(to,responsename6)
-                            	dna6.sendMessage(to,responsename7)
-                            	dna7.sendMessage(to,responsename8)
-                            	dna8.sendMessage(to,responsename9)
-                            	dna9.sendMessage(to,responsename10)
+                            	#dna3.sendMessage(to,responsename4)
+                            	#dna4.sendMessage(to,responsename5)
+                            	#dna5.sendMessage(to,responsename6)
+                            	#dna6.sendMessage(to,responsename7)
+                            	#dna7.sendMessage(to,responsename8)
+                            	#dna8.sendMessage(to,responsename9)
+                            	#dna9.sendMessage(to,responsename10)
                             	random.choice(KAC).sendMessage(to,"ᴀʟʟ ᴄᴏᴍᴘʟᴇᴛᴇᴅ")
                             elif cmd == "absen":
                             	ririn.sendContact(to, ririnMid)
                             	dna1.sendContact(to, aMid)
                             	dna2.sendContact(to, bMid)
-                            	dna3.sendContact(to, cmid)
-                            	dna4.sendContact(to, dMid)
-                            	dna5.sendContact(to, eMid)
-                            	dna6.sendContact(to, fMid)
-                            	dna7.sendContact(to, gMid)
-                            	dna8.sendContact(to, hMid)
-                            	dna9.sendContact(to, iMid)
+                            	#dna3.sendContact(to, cmid)
+                            	#dna4.sendContact(to, dMid)
+                            	#dna5.sendContact(to, eMid)
+                            	#dna6.sendContact(to, fMid)
+                            	#dna7.sendContact(to, gMid)
+                            	#dna8.sendContact(to, hMid)
+                            	#dna9.sendContact(to, iMid)
                             	random.choice(KAC).sendMessage(to,"ᴀʟʟ ᴄᴏᴍᴘʟᴇᴛᴇᴅ")
                             elif cmd == "dna":
                             	ririn.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
                             	dna1.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
                             	dna2.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
-                            	dna3.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
-                            	dna4.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
-                            	dna5.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
-                            	dna6.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
-                            	dna7.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
-                            	dna8.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
-                            	dna9.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+                            	#dna3.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+                            	#dna4.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+                            	#dna5.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+                            	#dna6.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+                            	#dna7.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+                            	#dna8.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+                            	#dna9.sendMessage(to,"ᴀʟʀᴇᴀᴅʏ ᴏɴ")
                             	random.choice(KAC).sendMessage(to,"ᴀʟʟ ᴄᴏᴍᴘʟᴇᴛᴇᴅ")
 #------------------------------------============================------------------------------------#
 #======================-----------✰ ᴅɴᴀ ʙᴏᴛ ✰-----------======================#
