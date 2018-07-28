@@ -12,11 +12,11 @@ from humanfriendly import format_timespan, format_size, format_number, format_le
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit, subprocess
 
 #ririn = LINE("TOKENMU")
-ririn = LINE("Es8F9rvfe5qWM1OyBUKd.UC8K+GXOvK/3A1WWSKmQRq.Ks5f57uNaBJYk8ZYbbM5KSJahM913pRZJI7AoATs9pQ=")
+ririn = LINE("EvK8AotMGRDSuSURLEG7.rYQ2taYWmIaHwZoX6iKQ1W.4x3H2UyooRqw262T2LrtHVfLYExUAa/VCrLK0v57d/s=")
 
-dna1 = LINE("Esn9u0ubtOSNbrvmZRj2.We7lj7PxgwBQ8O07ppSHuG.yZgTUBb0XWQeIuEeEcOTxrVcnWfEXOKs0ecytY8Ungk=")
+dna1 = LINE("EvN6Gc7v7FTf2BEEfNK6.BaiKNxR2VN7zWCBrQS6P5G.caWZLpJZ2OQP17CbG1yLz/fzUQJvDpKjZoySCcTFkBI=")
 
-dna2 = LINE("EswPaA5BOBJTsJYOn671.Sl2u8yHwWYZHMslzI9Bi8q.20nDyP69BtbKbjSH0g+Az8JIhjkvKDyF5cnu+TLbWJc=")
+dna2 = LINE("EvdEWSYoEXAWwGEdKhma.UHbbg4pHBjT5VwCYtXmXsG.ljMksZprMaQQKiw8fqUqIXklykIrHv87YYMvWf9xK9o=")
 
 #dna3 = LINE("EsEKNt02EJOcnTi6Xzx8.M53qiD/PJ1i6qsVfYwB7Ea.NaLIAwjUUJL6CgB0EDUFAPFuGYBt1Tfnu+Di90xex+w=")
 
