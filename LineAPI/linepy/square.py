@@ -1,5 +1,9 @@
+ fadhiilrachman / line-py
+Code  Issues 25  Pull requests 1  Projects 0  Pulse
+linepy/square.py
+
 # -*- coding: utf-8 -*-
-from ..akad.ttypes import *
+from akad.ttypes import *
 from random import randint
 
 def loggedIn(func):
@@ -10,7 +14,7 @@ def loggedIn(func):
             else:
                 args[0].callback.other('You want to call the function, you must login to LINE')
         else:
-            args[0].callback.other('Your LINE account is not support Square')
+            args[0].callback.other('Your LINE account doesn\'t support Square')
     return checkLogin
 
 class Square(object):
@@ -25,7 +29,7 @@ class Square(object):
             self.squareObsToken = self.acquireEncryptedAccessToken(2).split('\x1e')[1]
         except:
             self.isSupportSquare = False
-            self.log('Your LINE account is not support Square')
+            self.log('Your LINE account doesn\'t support Square')
 
     """Object"""
 
@@ -405,3 +409,4 @@ class Square(object):
         rq = RemoveSubscriptionsRequest()
         rq.unsubscriptions = unsubscriptions
         return self.square.removeSubscriptions(rq)
+ Desktop version Sign out
